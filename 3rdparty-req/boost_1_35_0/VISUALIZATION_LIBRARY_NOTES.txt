@@ -1,0 +1,2 @@
+This Boost version has been stripped down to the minimum.
+The complete version can be downloaded form www.boost.org

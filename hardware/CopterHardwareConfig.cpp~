@@ -1,0 +1,13 @@
+#include "CopterHardwareConfig.h"
+
+BL2827_34 engineA0Left;
+BL2827_34 engineA0Right;
+BL2827_34 engineA1Left;
+BL2827_34 engineA1Right;
+
+
+ActuatorType actuatorA0Left;
+ActuatorType actuatorA0Right;
+ActuatorType actuatorA1Left;
+ActuatorType actuatorA1Right;
+

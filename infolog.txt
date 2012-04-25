@@ -1,0 +1,22 @@
+using configuration source "/home/cody/.springrc"
+OS: Linux
+Using read-write data directory: /home/cody/spring/
+Using read-only  data directory: /home/cody/.spring/
+Using read-only  data directory: /usr/share/games/spring/
+Scanning: /usr/share/games/spring/maps
+Scanning: /usr/share/games/spring/base
+Scanning: /usr/share/games/spring/mods
+Scanning: /home/cody/.spring/maps
+Scanning: /home/cody/.spring/base
+Scanning: /home/cody/.spring/mods
+Scanning: /home/cody/spring/maps
+Scanning: /home/cody/spring/base
+Scanning: /home/cody/spring/mods
+Video mode set to  1024 x 768 / 32 bit
+[      0] SDL:  1.2.12
+[      0] GL:   2.1.8087 Release
+[      0] GL:   ATI Technologies Inc.
+[      0] GL:   ATI MOBILITY RADEON X700
+[      0] GLEW: 1.5.0
+[      0] Connecting to local server using number 0
+[      0] Content error: PreGame couldn't find any mod files

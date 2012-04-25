@@ -1,0 +1,38 @@
+#ifndef SIMCOPTERHARDWARECONFIG_H_INCLUDED
+#define SIMCOPTERHARDWARECONFIG_H_INCLUDED
+
+#include "BL2827_34.h"
+#include "SimActuator.h"
+/*
+const float batteryHeight = 0.025;//in meter
+const float batteryWidth0 = 0.04;//in meter along the axis0
+const float batteryWidth1 = 0.135;//in meter along the axis1
+const float batteryWeight = 282.0;//in gramm
+
+const float electronicHeight = 0.07;//in meter
+const float electronicWidth0 = 0.09;//in meter along the axis0
+const float electronicWidth1 = 0.12;//in meter along the axis1
+const float electronicWeight = 218.0;//in gramm
+
+const float axisWeight = 200.0; //in gramm
+const float axisHeight = 0.5; //in meter
+const float axisWidth = 0.01; //in meter
+
+extern BL2827_34 engineA0Left;
+extern BL2827_34 engineA0Right;
+extern BL2827_34 engineA1Left;
+extern BL2827_34 engineA1Right;
+
+static const float engineDistanceA0 = 0.25; //in meter
+static const float engineDistanceA1 = 0.25; //in meter
+*/
+typedef SimQuadCopter::SimActuator ActuatorType;
+
+extern ActuatorType actuatorA0Left;
+extern ActuatorType actuatorA0Right;
+extern ActuatorType actuatorA1Left;
+extern ActuatorType actuatorA1Right;
+
+
+#endif
+

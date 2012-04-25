@@ -1,0 +1,23 @@
+#ifndef SIMACTUATOR_H
+#define SIMACTUATOR_H
+
+
+namespace SimQuadCopter
+{
+
+class SimActuator
+{
+private:
+	unsigned char baseLtc;
+	
+public:
+	void init(void* data);
+
+	void setVoltage(float voltage);
+
+};
+
+}
+
+#endif
+
